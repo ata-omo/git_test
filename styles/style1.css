@@ -1,7 +1,7 @@
 .odd
 {
     background-color: pink;
-    font: sans-serif, Verdana, DejaVu Sans ;
+    font: sans-serif, Verdana, "DejaVu Sans" ;
 }
 #element2
 {
@@ -18,4 +18,17 @@
     font-size: 24px;
     font-weight: bold;
 }
-
+.elementa,.elementb
+{
+    font-size: 28px;
+    font: Helvetica,"Times New Roman",sans-serif;
+}
+.elementa
+{
+    background-color: black;
+    color: white;
+}
+.elementb
+{
+    background-color: yellow;
+}
