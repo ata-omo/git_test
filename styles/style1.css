@@ -1,34 +1,37 @@
-.odd
+.container
 {
-    background-color: pink;
-    font: sans-serif, Verdana, "DejaVu Sans" ;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
-#element2
+.title
 {
-    color: blue;
+    /* font-weight: bold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
     font-size: 36px;
+    font-weight: 900;
 }
-#element3
+.items
 {
-    font-size: 24px;
+    display: flex;
+    gap: 52px;
+
 }
-#element4
+
+
+img {
+    width: 100px;
+    height: 100px;
+    /* align-content: center; */
+  }
+
+  body {
+    text-align: center;
+  }
+/* .i1,.i2,.i3,.i4
 {
-    background-color: lightgreen;
-    font-size: 24px;
-    font-weight: bold;
-}
-.elementa,.elementb
-{
-    font-size: 28px;
-    font: Helvetica,"Times New Roman",sans-serif;
-}
-.elementa
-{
-    background-color: black;
-    color: white;
-}
-.elementb
-{
-    background-color: yellow;
-}
+    align-items: center;
+    justify-content: center;
+} */
